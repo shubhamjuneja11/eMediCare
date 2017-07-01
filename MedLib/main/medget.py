@@ -29,8 +29,8 @@ class medget:
                 res_p['id'] = str(k[str('id')])
                 res_p['label'] = str(k[str('label')])
                 search_res.append(res_p)
-                res_p=None
-                #j = j + 1
+
+
 
         #return self.api.search('headache')
         return search_res
