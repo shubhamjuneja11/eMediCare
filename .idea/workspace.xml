@@ -1,0 +1,1264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6c72cc83-7805-4656-983b-91473e07e006" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/docs/201703211847.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/docs/201703212233.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/docs/201703220133.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/docs/file1.ods" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/docs/quesformat.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/docs/quesformat1.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/fonts/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/fonts/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/fonts/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/fonts/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/fonts/fontawesome-webfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/img/1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/img/10.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/img/11.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/img/2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/img/3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/img/4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/img/4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/img/5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/img/6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/img/7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/img/8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/img/9.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/img/ab.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/img/ab1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/img/arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/img/arrow_down.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/img/arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/img/close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/img/closew.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/img/co.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/img/down.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/img/g1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/img/g2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/img/g3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/img/g4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/img/g5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/img/g6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/img/g7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/img/g8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/img/g9.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/img/icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/img/img-sp.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/img/img-sprite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/img/left-quotes.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/img/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/img/middle.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/img/move-top.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/img/n1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/img/n2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/img/n3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/img/n4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/img/n5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/img/n6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/img/nav.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/img/next.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/img/prev.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/img/right-quotes.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/img/rightw.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/img/search.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/img/social2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/img/t1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/img/t2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/img/t3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/img/tw.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/img/wallhaven-10742-thumb.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/img/wallhaven-10742.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/img/wallhaven-12018-thumbnail.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/img/wallhaven-12018.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/img/wallhaven-16270-thumbnail.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/img/wallhaven-16270.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/img/wallhaven-27263-thumbnail.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/img/wallhaven-27263.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/img/wallhaven-3178-thumb.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/img/wallhaven-3178.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/fonts/BebasNeue-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/fonts/BebasNeue-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/fonts/BebasNeue-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/fonts/fontomas-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/fonts/fontomas-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/fonts/fontomas-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/fonts/franchise-bold-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/fonts/franchise-bold-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/fonts/franchise-bold-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/images/1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/images/10.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/images/11.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/images/2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/images/3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/images/4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/images/4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/images/5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/images/6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/images/7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/images/8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/images/9.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/images/ab.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/images/ab1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/images/android-desktop.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/images/arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/images/arrow_down.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/images/arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/images/bg-banner.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/images/bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/images/close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/images/closew.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/images/co.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/images/doc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/images/doc1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/images/dog.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/images/down.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/images/favicon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/images/g1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/images/g2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/images/g3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/images/g4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/images/g5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/images/g6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/images/g7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/images/g8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/images/g9.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/images/icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/images/img-sp.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/images/img-sprite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/images/ios-desktop.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/images/left-quotes.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/images/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/images/middle.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/images/move-top.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/images/n1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/images/n2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/images/n3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/images/n4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/images/n5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/images/n6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/images/nav.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/images/next.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/images/prev.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/images/profile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/images/right-quotes.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/images/rightw.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/images/search.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/images/social2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/images/t1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/images/t2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/images/t3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/images/tw.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/images/user.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/images/wallhaven-10742-thumb.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/images/wallhaven-10742.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/images/wallhaven-12018-thumbnail.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/images/wallhaven-12018.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/images/wallhaven-16270-thumbnail.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/images/wallhaven-16270.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/images/wallhaven-27263-thumbnail.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/images/wallhaven-27263.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/images/wallhaven-3178-thumb.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/images/wallhaven-3178.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/css/font-awesome.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/css/imagehover.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/css/owl.carousel.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/css/slider.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/css/style1.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/css/swipebox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/docs/.~lock.quesformat1.xlsx#" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/docs/201703212218.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/docs/file1.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/fonts/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/img/icons.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/js/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/js/controls.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/js/custom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/js/easing.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/js/jquery-1.11.1.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/js/jquery.easing.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/js/jquery.filterizr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/js/jquery.flexisel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/js/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/js/jquery.swipebox.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/js/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/js/modernizr.custom.97074.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/js/move-top.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/js/owl.carousel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/js/responsiveslides.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/js/sleekslider.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/css/animate-custom.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/css/demo.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/css/owl.carousel.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/css/signupformstyle.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/css/slider.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/css/style2.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/css/style3.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/css/styles.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/css/swipebox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/fonts/BebasNeue-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/fonts/Dharma Type Font License.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/fonts/fontomas-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/fonts/franchise-bold-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/images/icons.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/js/ajax.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/js/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/js/controls.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/js/easing.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/js/jquery-1.11.1.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/js/jquery.filterizr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/js/jquery.flexisel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/js/jquery.swipebox.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/js/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/js/modernizr.custom.97074.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/js/move-top.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/js/owl.carousel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/js/responsiveslides.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/static/js/sleekslider.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/templates/Temp/about.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/templates/Temp/contact.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/templates/Temp/dashboard.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/templates/Temp/gallery.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/templates/Temp/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/templates/Temp/request1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/templates/Temp/signupform.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/templates/Temp/single.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/templates/Temp/symptomdash.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedLib/main/templates/Temp/typography.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MedLib/main/static/img/bg-banner.jpg" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/img/bg-banner.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MedLib/main/static/img/doc.png" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/img/doc.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MedLib/main/static/img/doc1.jpg" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/img/doc1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MedLib/main/static/img/profile.png" afterPath="$PROJECT_DIR$/MedLib/MedLib/static/img/profile.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MedLib/db.sqlite3" afterPath="$PROJECT_DIR$/MedLib/db.sqlite3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MedLib/MedLib/settings.py" afterPath="$PROJECT_DIR$/MedLib/MedLib/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MedLib/MedLib/urls.py" afterPath="$PROJECT_DIR$/MedLib/MedLib/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MedLib/main/forms.py" afterPath="$PROJECT_DIR$/MedLib/main/forms.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MedLib/main/models.py" afterPath="$PROJECT_DIR$/MedLib/main/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MedLib/main/static/css/style1.css" afterPath="$PROJECT_DIR$/MedLib/main/static/css/style1.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MedLib/main/templates/Temp/logged.html" afterPath="$PROJECT_DIR$/MedLib/main/templates/Temp/logged.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MedLib/main/templates/Temp/login.html" afterPath="$PROJECT_DIR$/MedLib/main/templates/Temp/login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MedLib/main/templates/Temp/search_checkup.html" afterPath="$PROJECT_DIR$/MedLib/main/templates/Temp/search_checkup.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MedLib/main/urls.py" afterPath="$PROJECT_DIR$/MedLib/main/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MedLib/main/views.py" afterPath="$PROJECT_DIR$/MedLib/main/views.py" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MedLib/main/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="295">
+              <caret line="333" column="30" lean-forward="true" selection-start-line="333" selection-start-column="30" selection-end-line="333" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#54#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ajax.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/MedLib/main/static/js/ajax.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc;n#ajaxreq#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="symptomdash.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MedLib/main/templates/Temp/symptomdash.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="149" column="17" lean-forward="false" selection-start-line="149" selection-start-column="17" selection-end-line="149" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="search_checkup.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MedLib/main/templates/Temp/search_checkup.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1081">
+              <caret line="102" column="55" lean-forward="true" selection-start-line="102" selection-start-column="55" selection-end-line="102" selection-end-column="55" />
+              <folding>
+                <element signature="n#form#0;n#center#0;n#div#0;n#aside#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MedLib/main/templates/Temp/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="301">
+              <caret line="46" column="100" lean-forward="false" selection-start-line="46" selection-start-column="74" selection-end-line="46" selection-end-column="100" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MedLib/main/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="235">
+              <caret line="48" column="28" lean-forward="true" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="logged.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MedLib/main/templates/Temp/logged.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="179" column="49" lean-forward="false" selection-start-line="179" selection-start-column="42" selection-end-line="179" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dashboard.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MedLib/main/templates/Temp/dashboard.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="227">
+              <caret line="107" column="39" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="271" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MedLib/main/static/css/styles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2040">
+              <caret line="102" column="14" lean-forward="false" selection-start-line="102" selection-start-column="9" selection-end-line="102" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>login</find>
+      <find>g</find>
+      <find>ge</find>
+      <find>get_</find>
+      <find>get_r</find>
+      <find>get_re</find>
+      <find>get_res</find>
+      <find>get_resp</find>
+      <find>get_respo</find>
+      <find>get_respon</find>
+      <find>get_respons</find>
+      <find>get_response</find>
+      <find>get_response\</find>
+      <find>get_response\\\\\\\\\\</find>
+      <find>get_response\\\\\\\\\</find>
+      <find>form</find>
+      <find>get</find>
+      <find>post</find>
+      <find>chart</find>
+      <find>dash</find>
+      <find>curren</find>
+      <find>tb</find>
+      <find>demo-ca</find>
+      <find>demo-cards mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet mdl-grid mdl-grid--no-spacing</find>
+      <find>right</find>
+      <find>table</find>
+      <find>button</find>
+      <find>history</find>
+      <find>success</find>
+      <find>medlib</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>img</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/MedLib/main/templates/Temp/logged.html" />
+        <option value="$PROJECT_DIR$/MedLib/main/templates/Temp/about.html" />
+        <option value="$PROJECT_DIR$/MedLib/main/static/css/style1.css" />
+        <option value="$PROJECT_DIR$/MedLib/main/static/css/style.css" />
+        <option value="$PROJECT_DIR$/MedLib/main/templates/Temp/login.html" />
+        <option value="$PROJECT_DIR$/MedLib/main/templates/Temp/single.html" />
+        <option value="$PROJECT_DIR$/MedLib/main/static/js/app.js" />
+        <option value="$PROJECT_DIR$/MedLib/main/static/js/sleekslider.min.js" />
+        <option value="$PROJECT_DIR$/MedLib/MedLib/urls.py" />
+        <option value="$PROJECT_DIR$/MedLib/main/templates/Temp/index.html" />
+        <option value="$PROJECT_DIR$/MedLib/main/static/css/slider.css" />
+        <option value="$PROJECT_DIR$/MedLib/MedLib/static/js/app.js" />
+        <option value="$PROJECT_DIR$/MedLib/main/static/css/demo.css" />
+        <option value="$PROJECT_DIR$/MedLib/main/static/css/signupformstyle.css" />
+        <option value="$PROJECT_DIR$/MedLib/MedLib/settings.py" />
+        <option value="$PROJECT_DIR$/MedLib/main/forms.py" />
+        <option value="$PROJECT_DIR$/MedLib/main/models.py" />
+        <option value="$PROJECT_DIR$/MedLib/main/templates/Temp/signupform.html" />
+        <option value="$PROJECT_DIR$/MedLib/main/templates/Temp/dashboard.html" />
+        <option value="$PROJECT_DIR$/MedLib/main/static/css/styles.css" />
+        <option value="$PROJECT_DIR$/MedLib/main/templates/Temp/search_checkup.html" />
+        <option value="$PROJECT_DIR$/MedLib/main/templates/Temp/request1.html" />
+        <option value="$PROJECT_DIR$/MedLib/main/views.py" />
+        <option value="$PROJECT_DIR$/MedLib/main/urls.py" />
+        <option value="$PROJECT_DIR$/MedLib/main/templates/Temp/symptomdash.html" />
+        <option value="$PROJECT_DIR$/MedLib/main/static/js/ajax.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="230" />
+    <option name="y" value="73" />
+    <option name="width" value="1853" />
+    <option name="height" value="1048" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Virtual_doctor_assistant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Virtual_doctor_assistant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Virtual_doctor_assistant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Virtual_doctor_assistant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MedLib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Virtual_doctor_assistant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Virtual_doctor_assistant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MedLib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MedLib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Virtual_doctor_assistant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Virtual_doctor_assistant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MedLib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Virtual_doctor_assistant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Virtual_doctor_assistant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MedLib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Temp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Virtual_doctor_assistant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Virtual_doctor_assistant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MedLib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Virtual_doctor_assistant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Virtual_doctor_assistant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MedLib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Virtual_doctor_assistant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Virtual_doctor_assistant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MedLib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SearchEverywhereHistoryKey" value="Sign&#9;null&#9;null" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/MedLib/main/static/images" />
+      <recent name="$PROJECT_DIR$/MedLib/main/templates/Temp" />
+      <recent name="$PROJECT_DIR$/MedLib/main/static/css" />
+      <recent name="$PROJECT_DIR$/MedLib/main/static/fonts" />
+      <recent name="$PROJECT_DIR$/MedLib" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/MedLib/MedLib" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Virtual_doctor_assistant" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Virtual_doctor_assistant" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Virtual_doctor_assistant" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Virtual_doctor_assistant" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <module name="Virtual_doctor_assistant" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Virtual_doctor_assistant" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Virtual_doctor_assistant" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6c72cc83-7805-4656-983b-91473e07e006" name="Default" comment="" />
+      <created>1498245811031</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1498245811031</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="230" y="73" width="1853" height="1048" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.52819955" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15716657" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/MedLib/main/views.py</url>
+          <line>209</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="5" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/MedLib/main/templates/Temp/logged.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1340">
+          <caret line="67" column="32" lean-forward="true" selection-start-line="67" selection-start-column="32" selection-end-line="67" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MedLib/main/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="34" column="16" lean-forward="true" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MedLib/main/med.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MedLib/main/static/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MedLib/main/templates/Temp/blood_search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="61" lean-forward="false" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MedLib/main/static/images/n4.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MedLib/main/static/images/bg-banner.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MedLib/main/static/images/doc.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MedLib/main/static/images/n2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MedLib/main/static/images/n1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MedLib/main/templates/Temp/question.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1060">
+          <caret line="53" column="55" lean-forward="false" selection-start-line="53" selection-start-column="55" selection-end-line="53" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MedLib/main/static/images/8.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MedLib/main/static/images/4.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MedLib/main/static/fonts/fontawesome-webfont.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="347" column="23" lean-forward="false" selection-start-line="347" selection-start-column="23" selection-end-line="347" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MedLib/main/templates/Temp/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1630">
+          <caret line="162" column="23" lean-forward="true" selection-start-line="162" selection-start-column="23" selection-end-line="162" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MedLib/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MedLib/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MedLib/main/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MedLib/main/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MedLib/main/static/css/style1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4320">
+          <caret line="216" column="28" lean-forward="false" selection-start-line="216" selection-start-column="28" selection-end-line="216" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MedLib/main/medget.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MedLib/main/medplace.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-240">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MedLib/main/templates/Temp/single.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MedLib/main/static/js/sleekslider.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MedLib/MedLib/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MedLib/main/static/css/slider.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="191" column="0" lean-forward="true" selection-start-line="191" selection-start-column="0" selection-end-line="191" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MedLib/MedLib/static/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MedLib/main/static/css/animate-custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-60">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MedLib/main/static/css/demo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1660">
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MedLib/main/static/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MedLib/main/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="40" lean-forward="false" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MedLib/main/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" column="3" lean-forward="true" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MedLib/main/templates/Temp/signup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="45" column="108" lean-forward="false" selection-start-line="45" selection-start-column="78" selection-end-line="45" selection-end-column="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MedLib/main/static/css/signupformstyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="26" lean-forward="false" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MedLib/main/templates/Temp/signupform.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="36" lean-forward="false" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MedLib/main/templates/Temp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5140">
+          <caret line="82" column="36" lean-forward="true" selection-start-line="82" selection-start-column="36" selection-end-line="82" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MedLib/main/templates/Temp/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" column="38" lean-forward="false" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MedLib/main/static/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2040">
+          <caret line="102" column="14" lean-forward="false" selection-start-line="102" selection-start-column="9" selection-end-line="102" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MedLib/main/templates/Temp/dashboard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="107" column="39" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="271" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MedLib/main/templates/Temp/logged.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="179" column="49" lean-forward="false" selection-start-line="179" selection-start-column="42" selection-end-line="179" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MedLib/main/static/js/easing.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-900">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MedLib/main/static/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MedLib/main/static/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MedLib/main/templates/Temp/search_checkup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1081">
+          <caret line="102" column="55" lean-forward="true" selection-start-line="102" selection-start-column="55" selection-end-line="102" selection-end-column="55" />
+          <folding>
+            <element signature="n#form#0;n#center#0;n#div#0;n#aside#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MedLib/main/templates/Temp/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="46" column="100" lean-forward="false" selection-start-line="46" selection-start-column="74" selection-end-line="46" selection-end-column="100" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MedLib/main/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="48" column="28" lean-forward="true" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MedLib/main/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="333" column="30" lean-forward="true" selection-start-line="333" selection-start-column="30" selection-end-line="333" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MedLib/main/templates/Temp/request1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="67" column="28" lean-forward="false" selection-start-line="67" selection-start-column="28" selection-end-line="67" selection-end-column="28" />
+          <folding>
+            <element signature="n#form#0;n#center#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MedLib/main/templates/Temp/symptomdash.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="149" column="17" lean-forward="false" selection-start-line="149" selection-start-column="17" selection-end-line="149" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MedLib/MedLib/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="125" column="34" lean-forward="true" selection-start-line="125" selection-start-column="34" selection-end-line="125" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MedLib/main/static/js/ajax.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc;n#ajaxreq#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
