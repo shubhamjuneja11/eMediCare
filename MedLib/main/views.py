@@ -137,14 +137,12 @@ def search(request):
 
 
 def search1(request):
-    if request.method == 'POST':
-
+        print(request)
         topic = SearchForm(request.POST, initial={"topic_text": "c"})
         if topic.is_valid():
             sim_str = topic.cleaned_data.get('topic_text')
             checklist = sim_str.split(",")
             # checklist = topic.cleaned_data.get('symptom')
-
             try:
                 checklist.append(request.POST['symptom1'])
             except:
@@ -174,19 +172,21 @@ def search1(request):
             except:
                 pass
             # return HttpResponse(checklist)
+            print(request.POST['symptom1'])
 
             li = ob.search_symptoms(checklist)
+
             l = len(li)
-            return render(request, 'Temp/symtoms.html', {"list": li, "len": l})
+            return render(request, 'Temp/request2', {"list": li, "len": l})
 
 
             # return HttpResponse((' ').join(li))
             # t=Topic.objects.get(topic_text=topic.cleaned_data.get('topic_text'))
 
         else:
-            return HttpResponse("Form not valid")
-    else:
-        return HttpResponse("not POST")
+            print topic.errors
+            return HttpResponse(topic.errors)
+
 
 
 def register(request):
@@ -209,11 +209,10 @@ def logInReq(request):
             try:
                 user = Users.objects.get(email=log.cleaned_data.get('email'), pwd=log.cleaned_data.get('pwd'))
                 request.session['user_id'] = user.id
-                #return render(request,'Temp/dashboard.html')
+                # return render(request,'Temp/dashboard.html')
                 return HttpResponseRedirect(reverse('main:index'))
             except Users.DoesNotExist:
                 return HttpResponse("WRONG USERNAME OR PASSWORD")
-
 
 
 """
@@ -242,8 +241,9 @@ def quest(request):
             except ObjectDoesNotExist:
                 HttpResponse("Object not found")
 
-            age = 21  # int(user.age)
-            sex = 'male'  # user.sex.lower()
+            age = request.session['age']
+            sex = request.session['sex']
+            print (age)
             ob.get_data(sex, age)
             lis = []
             for i in checklist:
@@ -330,6 +330,62 @@ def logout(request):
         pass
     return HttpResponseRedirect(reverse('main:index'))
 
+
 def ajaxreq(request):
-    return render(request,'Temp/request1.html')
+    return render(request, 'Temp/request0.html')
+
+def basicsymptoms(request):
+    print("dcc")
+    sex = request.GET['sex']
+    age = request.GET['age']
+    request.session['sex'] = sex
+    request.session['age'] = age
+    return render(request, 'Temp/request1.html')
+
+
+        # return HttpResponse((' ').join(li))
+        # t=Topic.objects.get(topic_text=topic.cleaned_data.get('topic_text'))
+def bum(request):
+    topic = SearchForm(request.GET, initial={"topic_text": "c"})
+    sim_str = topic.cleaned_data.get('topic_text')
+    checklist = sim_str.split(",")
+    # checklist = topic.cleaned_data.get('symptom')
+    try:
+        checklist.append(request.POST['symptom1'])
+    except:
+        pass
+    try:
+        checklist.append(request.POST['symptom2'])
+    except:
+        pass
+    try:
+        checklist.append(request.POST['symptom3'])
+    except:
+        pass
+    try:
+        checklist.append(request.POST['symptom4'])
+    except:
+        pass
+    try:
+        checklist.append(request.POST['symptom5'])
+    except:
+        pass
+    try:
+        checklist.append(request.POST['symptom6'])
+    except:
+        pass
+    try:
+        checklist.append(request.POST['symptom7'])
+    except:
+        pass
+    # return HttpResponse(checklist)
+    print(request.POST['symptom1'])
+
+    li = ob.search_symptoms(checklist)
+
+    l = len(li)
+    return render(request, 'Temp/request2.html', {"list": li, "len": l})
+
+
+
 

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Virtual doctor assistant
 In this project The user first login and then if the user chooses/click "checkup Now" then user will tell about the symptoms he/she have them like a doctor our web interface ask you several questions (based on Artificial Intelligence) and finally give you the disease you have and suggest a doctor
 
@@ -17,3 +18,6 @@ $ pyhon manage.py runserver
 ```
 project run at  http://127.0.0.1:8000/
 
+=======
+# eMedicare
+>>>>>>> fac69b0aea17af3790b3c380a2357099ed6f7630

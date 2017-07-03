@@ -5,6 +5,7 @@ from django.conf import settings
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 
 
+
 app_name = 'main' 
 #This sets application namespace to diffretiate urls of different apps.
 
@@ -47,6 +48,7 @@ urlpatterns = [
     url(r'^question$', views.question, name='question'),
 
     url(r'^ajaxreq',views.ajaxreq,name='ajaxreq'),
+    url(r'^basicsymptoms/$',views.basicsymptoms,name='basicsymptoms'),
 
 ]
 
