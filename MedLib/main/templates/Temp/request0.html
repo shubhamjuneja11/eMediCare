@@ -3,6 +3,7 @@
  * Created by shubhamjuneja11 on 2/7/17.
  */
 ajaxreq = function myfun(){
+  startload();
     var msex = $('input[name=gender]:checked', '#form').val()
     // var msex = $('gender').val();
      var mage = $('#quantity').val();
@@ -16,8 +17,8 @@ ajaxreq = function myfun(){
         dataType:'html',
         type: "GET",
         success: function (data) {
-          $("#mytext").html(data)
-            console.log("kmkmk")
+          $("#mytext").html(data);
+            stopload();
         }
       })
     }
@@ -25,6 +26,7 @@ ajaxreq = function myfun(){
 
 </script>
 <form id="form">
+
     Gender
     <div id="sex">
   <input type="radio" name="gender" value="male" checked> Male
@@ -39,5 +41,3 @@ Age
 
                <button type="button" class="btn btn-success btn-md nextbutton" id="nextbutton" onclick="ajaxreq()">Next</button>
             </div>
-
-

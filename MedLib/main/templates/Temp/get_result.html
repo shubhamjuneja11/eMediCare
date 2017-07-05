@@ -20,7 +20,6 @@
     <link rel="stylesheet" href="{% static 'css/imagehover.min.css' %}" type="text/css" />
 </head>
 
-<<<<<<< HEAD
 <body>
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
@@ -32,7 +31,7 @@
         </button>
                 <a class="navbar-brand" href="/">HEALTH MEDLIB</a>
             </div>
-            
+
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="/search_checkup">CHECK-UP NOW</a></li>
@@ -66,11 +65,11 @@
                     {{ result.hint }}<br>
                     <form class="form" method="POST" action="{% url 'main:doc_list' %}"><!--Not applied yet -->
                         {% csrf_token %}
-                        
+
                         <br>
                         <input type="submit"  class="btn btn-primary" name="find_doctor" id="find_doctor" value="GET NEARBY DOCTORS"><br>
                         <input type="hidden" name="location" id="location" value="{"ip" : "47.31.14.117", "country_code" : "IN", "country_name" : "India", "region_code" : "DL", "region_name" : "National Capital Territory of Delhi", "city" : "Delhi", "zip_code" : "", "time_zone" : "Asia/Kolkata", "latitude" : "28.6667", "longitude" : "77.2167", "metro_code" : "0", }"><br>
-                        <input type="hidden" name="doctor_type" id="doctor_type" value="{{ result.hint }}">               
+                        <input type="hidden" name="doctor_type" id="doctor_type" value="{{ result.hint }}">
                     </form>
 
 
@@ -92,16 +91,16 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script>
 $(document).ready(function(){
-    //console.log("23");    
+    //console.log("23");
     //alert("hey");
     var l = "";
     //console.log(l);
     //alert("hey2");
         $.getJSON("https://freegeoip.net/json/", function(result){
-            l = l + "{";            
+            l = l + "{";
             $.each(result, function(i, field){
             	l = l + "\"" + i + "\" : " + "\"" + field + "\", ";
-                        
+
             });
             l = l + "}";
             $('#location').val(l);
@@ -114,6 +113,3 @@ $(document).ready(function(){
 </body>
 
 </html>
-
-
-

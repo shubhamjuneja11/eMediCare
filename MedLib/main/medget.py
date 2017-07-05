@@ -8,10 +8,10 @@ class medget:
     def get_data(self,sex_m,age_m):
 
         self.user_data = infermedica_api.Diagnosis(sex=sex_m, age=age_m)
-        
-    
+
+
     def add_symptoms(self, ids):
-        
+
         for i in ids:
             self.user_data.add_symptom( str(i[str(u'id')]), str(i[str(u'status')]))
         #absent status add
@@ -49,11 +49,12 @@ class medget:
             optn['choice'] = i['choices']
 
             ques['option'].append(optn)
+        print(ques)
         return ques
         #return optn_list
-        
+
         #return self.user_data.question.items
-        
+
     def check_risk(self, ):
         if self.user_data.conditions[0]['probability'] > 0.7:
             return 1
@@ -62,7 +63,7 @@ class medget:
 
     def get_result(self, ):
         result = {}
-        result['id'] = str(self.user_data.conditions[0][str('id')])      
+        result['id'] = str(self.user_data.conditions[0][str('id')])
         result['name'] = str(self.user_data.conditions[0][str('name')])
         result['prob'] = str(self.user_data.conditions[0]['probability'])
         k = self.api.condition_details(result['id']).__dict__

@@ -177,7 +177,7 @@ def search1(request):
             li = ob.search_symptoms(checklist)
 
             l = len(li)
-            return render(request, 'Temp/request2', {"list": li, "len": l})
+            return render(request, 'Temp/request2.html', {"list": li, "len": l})
 
 
             # return HttpResponse((' ').join(li))
@@ -224,6 +224,7 @@ class LoggedIn(generic.DetailView):
 
 
 def quest(request):
+
     global ob
     if request.method == 'POST':
         l = request.POST['len']
@@ -255,6 +256,7 @@ def quest(request):
 
             # ob.add_symptoms(lis)
             request.session['lis'] = lis
+            print("44455555555555555555555555")
             return HttpResponseRedirect(reverse('main:question'))
             # return HttpResponse(a)
             # ob.get_questions()
@@ -265,15 +267,22 @@ def question(request):
     # global j
     # j +=1
     i = []
+    print("44444444444444444444444444")
     if request.session.has_key('lis'):
+        print("322222222222222222222222")
         i = request.session['lis']
         try:
             del request.session['lis']
+            print("000000000000")
         except:
+            print("1111111111111111")
             pass
+        print("3rererer")
         ob.add_symptoms(i)
+        print("ccccccccccccccc")
         a = ob.get_question()
-        return render(request, 'Temp/question.html', {"ques_dict": a})
+        print("3433333333333333333333333333333333")
+        return render(request, 'Temp/myquestion.html', {"ques_dict": a})
         # return HttpResponse(a)
     elif not ob.check_risk():
         i = {}
@@ -293,7 +302,7 @@ def question(request):
         ob.add_symptoms(a)
         a = ob.get_question()
         # j = i
-        return render(request, 'Temp/question.html', {"ques_dict": a})
+        return render(request, 'Temp/myquestion.html', {"ques_dict": a})
     else:
         result = {}
         uid = request.session['user_id']
@@ -385,7 +394,3 @@ def bum(request):
 
     l = len(li)
     return render(request, 'Temp/request2.html', {"list": li, "len": l})
-
-
-
-

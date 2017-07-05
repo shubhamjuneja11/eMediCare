@@ -1,3 +1,37 @@
+<script>
+    /**
+     * Created by shubhamjuneja11 on 2/7/17.
+     */
+     function  ajaxreq3() {
+       console.log("ababababab");
+            //var csrftoken = jQuery("[name=csrfmiddlewaretoken]").val();
+            var dataz=$("#myform").serialize();
+            console.log(dataz);
+
+        $.ajax({
+
+        url:"quest",
+            dataType
+        :
+        'html',
+            type
+        :
+        "POST",
+            data:dataz ,
+            success
+        :
+        function (data) {
+            $("#mytext").html(data)
+            console.log("kmkmk")
+        }
+
+    })
+
+    }
+
+
+</script>
+
 <div class="container ">
                         <div class="row">
                             <div class="col-xs-12 col-sm-6 col-md-4 col-sm-offset-1 col-md-offset-1">
@@ -7,7 +41,7 @@
 
 
                                     <ul class="list-group">
-                                        <form action="{% url 'main:quest' %}" method="post">
+                                        <form id="myform" method="post">
                                             {% csrf_token %} {% for ch in list %}
                                             <li class="list-group-item">
                                                 {{ ch.label }}
@@ -20,11 +54,12 @@
                                             {% endfor %}
                                             <input type="text" name="len" value="{{ len }}" hidden>
                                             <br>
-                                            <input type="submit" class="abcbut" value="Submit" /><br>
+                                            <button type="button" class="btn btn-success btn-md nextbutton" id="nextbutton" onclick="ajaxreq3()">Next</button>
                                         </form>
 
                                     </ul>
                                 </div>
                             </div>
                         </div>
+
                     </div>
