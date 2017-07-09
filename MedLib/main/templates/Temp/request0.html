@@ -1,30 +1,6 @@
-<script>
-  /**
- * Created by shubhamjuneja11 on 2/7/17.
- */
-ajaxreq = function myfun(){
-  startload();
-    var msex = $('input[name=gender]:checked', '#form').val()
-    // var msex = $('gender').val();
-     var mage = $('#quantity').val();
-    var csrftoken = jQuery("[name=csrfmiddlewaretoken]").val();
-     console.log(msex)
-      console.log(mage)
-  $.ajax({
-
-        data:{sex:msex, age:mage},
-        url:"/basicsymptoms/",
-        dataType:'html',
-        type: "GET",
-        success: function (data) {
-          $("#mytext").html(data);
-            stopload();
-        }
-      })
-    }
 
 
-</script>
+
 <form id="form">
 
     Gender
@@ -34,10 +10,10 @@ ajaxreq = function myfun(){
 </div>
 <br><br>
 Age
-    <input type="number" name="quantity" id="quantity" min="1" max="110">
+    <input type="number" name="quantity" id="quantity" min="1" max="120">
     </form>
     <br><br>
 <div>
 
-               <button type="button" class="btn btn-success btn-md nextbutton" id="nextbutton" onclick="ajaxreq()">Next</button>
+               <button type="button" class="btn btn-success btn-md nextbutton" id="nextbutton" onclick="myfun()">Next</button>
             </div>

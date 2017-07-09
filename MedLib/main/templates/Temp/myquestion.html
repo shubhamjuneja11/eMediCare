@@ -1,31 +1,6 @@
 <script>
 
-function  newques() {
-  console.log("ababababab");
-       //var csrftoken = jQuery("[name=csrfmiddlewaretoken]").val();
-       var dataz=$("#myform").serialize();
-       console.log(dataz);
 
-   $.ajax({
-
-   url:"question",
-       dataType
-   :
-   'html',
-       type
-   :
-   "POST",
-       data:dataz ,
-       success
-   :
-   function (data) {
-       $("#mytext").html(data)
-       console.log("kmkmk")
-   }
-
-})
-
-}
 
 </script>
 

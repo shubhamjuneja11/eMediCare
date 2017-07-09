@@ -3,31 +3,7 @@
     /**
      * Created by shubhamjuneja11 on 2/7/17.
      */
-     function  ajaxreq2() {
-            //var csrftoken = jQuery("[name=csrfmiddlewaretoken]").val();
-            var dataz=$("#myform").serialize();
-            console.log(dataz);
- console.log("pppppppppppppppppppppppp");
-        $.ajax({
 
-        url:"search1",
-            dataType
-        :
-        'html',
-            type
-        :
-        "POST",
-            data:dataz ,
-            success
-        :
-        function (data) {
-            $("#mytext").html(data)
-            console.log("kmkmk")
-        }
-
-    })
-
-    }
 
 
 </script>
@@ -39,8 +15,8 @@
             <center><h3>Search Your Problem Here </h3>
                 <form id="myform" class="form" method="POST"><!--Not applied yet -->
                     {% csrf_token %}
-                    <input class="abc" style="color: #000" name="topic_text" required>
-                    <input class="btn btn-compose" onclick="ajaxreq2()" style="width: 100px" value="Search">
+                    <input class="abc" style="color: #000" name="topic_text" id="searcharea" required>
+                    <input class="btn btn-success btn-md nextbutton" onclick="ajaxreq2()" style="width: 100px" value="Search">
                     <br>
             <br>
             <div class="container">

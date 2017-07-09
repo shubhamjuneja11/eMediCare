@@ -46,71 +46,6 @@ def search_checkup(request):
     return render(request, 'Temp/search_checkup.html')
 
 
-def blood_type(request):
-    return render(request, 'Temp/blood_type.html')
-
-
-def blood_search(request):
-    if request.method == 'POST':
-        location = request.POST['location']
-        loc_dict = ast.literal_eval(location)
-        loc_dict1 = {}
-        loc_dict1['lat'] = loc_dict['latitude']
-        loc_dict1['lng'] = loc_dict['longitude']
-
-        plac = medplace.get_places(lat_lng=loc_dict1, doctor_type='blood bank')
-        # return HttpResponse("hey" + str(plac))
-
-
-        # checklist = topic.cleaned_data.get('symptom')
-        checklist = []
-        try:
-            checklist.append(request.POST['blood1'])
-        except:
-            pass
-        try:
-            checklist.append(request.POST['blood2'])
-        except:
-            pass
-        try:
-            checklist.append(request.POST['blood3'])
-        except:
-            pass
-        try:
-            checklist.append(request.POST['blood4'])
-        except:
-            pass
-        try:
-            checklist.append(request.POST['blood5'])
-        except:
-            pass
-        try:
-            checklist.append(request.POST['blood6'])
-        except:
-            pass
-        try:
-            checklist.append(request.POST['blood7'])
-        except:
-            pass
-            # return HttpResponse(checklist)
-            # k = Users.objects.filter(blood='O+', blood_type='YES').values('email', 'name', 'phone', 'age', 'blood', 'blood_type', 'address')
-            # for l in k:
-            #    return HttpResponse('hey' + str(l['email']) + str(l['name']) + str(l['phone']))
-            # return render(request, 'Temp/symtoms.html', {"list": li,"len":l})
-
-        user_model = []
-        for i in checklist:
-            user_model.extend(
-                Users.objects.filter(blood=i, blood_type='YES').values('email', 'name', 'phone', 'age', 'blood',
-                                                                       'blood_type', 'address'))
-            # return HttpResponse(user_model)
-
-            # user_model.append(user_model))
-            # return HttpResponse(user_model)
-
-            # return HttpResponse("hey" + str(user_model))
-
-    return render(request, 'Temp/blood_search.html', {"user_list": user_model, "blood_bank": plac, })
 
 
 def search(request):
@@ -172,7 +107,7 @@ def search1(request):
             except:
                 pass
             # return HttpResponse(checklist)
-            print(request.POST['symptom1'])
+
 
             li = ob.search_symptoms(checklist)
 
@@ -267,21 +202,15 @@ def question(request):
     # global j
     # j +=1
     i = []
-    print("44444444444444444444444444")
     if request.session.has_key('lis'):
-        print("322222222222222222222222")
         i = request.session['lis']
         try:
             del request.session['lis']
-            print("000000000000")
         except:
-            print("1111111111111111")
             pass
         print("3rererer")
         ob.add_symptoms(i)
-        print("ccccccccccccccc")
         a = ob.get_question()
-        print("3433333333333333333333333333333333")
         return render(request, 'Temp/myquestion.html', {"ques_dict": a})
         # return HttpResponse(a)
     elif not ob.check_risk():
@@ -316,7 +245,7 @@ def question(request):
             dis_hint=result['hint'],
             dis_time=str(datetime.datetime.fromtimestamp(time.time()).strftime('%Y-%m-%d %H:%M:%S')),
         ).save()
-        return render(request, 'Temp/get_result.html', {"result": result})
+        return render(request, 'Temp/myresult.html', {"result": result})
 
 
 def doc_list(request):
@@ -388,7 +317,6 @@ def bum(request):
     except:
         pass
     # return HttpResponse(checklist)
-    print(request.POST['symptom1'])
 
     li = ob.search_symptoms(checklist)
 
