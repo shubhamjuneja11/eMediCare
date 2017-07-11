@@ -108,8 +108,8 @@
           </div>
         </header>
         <nav class="demo-navigation mdl-navigation mdl-color--blue-grey-800">
-          <a class="mdl-navigation__link" href="{% url 'main:index' %}" style="background:#263238;" href=""><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">home</i>Home</a>
-          <a class="mdl-navigation__link" href="{% url 'main:reports' %}"><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">inbox</i>Inbox</a>
+          <a class="mdl-navigation__link"  href="{% url 'main:index' %}" ><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">home</i>Home</a>
+          <a class="mdl-navigation__link" href="{% url 'main:reports' %}" style="background:#263238;"><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation" >inbox</i>Inbox</a>
           <a class="mdl-navigation__link" href=""><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">delete</i>Trash</a>
           <a class="mdl-navigation__link" href=""><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">report</i>Spam</a>
           <a class="mdl-navigation__link" href=""><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">forum</i>Forums</a>
@@ -145,20 +145,26 @@
 
 
     <!------------------------------------------------------------------------------------------------------>
-    <div>
+    <table class="table  table-striped">
+      <tbody>
+        <tr class="unread">
 
-                   <button type="button" class="btn btn-warning btn-md nextbutton pull-right" id="nextbutton" onclick="myajaxreq()"">Restart Test</button>
-                </div>
-              <div id="mytext">
+            <td class="view-message  dont-show h2">Disease</td>
+          <td class="view-message h2 ">Severity</td>
+            <td class="view-message  inbox-small-cells"><i class="fa fa-paperclip"></i></td>
+            <td class="view-message  text-right h2">Time</td>
+        </tr>
+        {% for i in history %}
+           <tr class="">
 
-By Clicking next, you are accepting our terms and conditions.
-
-
-<div>
-
-               <button type="button" class="btn btn-success btn-md nextbutton" id="nextbutton" onclick="myajaxreq()">Next</button>
-            </div>
-              </div>
+            <td class="view-message dont-show">{{ i.dis_name }} </td>
+            <td class="view-message view-message">{{ i.dis_severity }}</td>
+            <td class="view-message inbox-small-cells"><i class="fa fa-paperclip"></i></td>
+            <td class="view-message text-right">{{ i.dis_time }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+    </table>
 
 <!---------------------------------------------------------------------------------------------->
 

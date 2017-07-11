@@ -6,7 +6,7 @@ from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 
 
 
-app_name = 'main' 
+app_name = 'main'
 #This sets application namespace to diffretiate urls of different apps.
 
 urlpatterns = [
@@ -19,7 +19,7 @@ urlpatterns = [
 
     #url to log in a user:
     url(r'^log_req$', views.logInReq, name='login_req'),
-    
+
     #url for create-user:
     url(r'^register_user$', views.register, name='register_user'),
 
@@ -37,19 +37,15 @@ urlpatterns = [
     #url to search a topic:
     url(r'^search_checkup$', views.search_checkup, name='search_checkup'),
 
-    url(r'^blood-type$', views.blood_type, name='blood_type'),
-
-    url(r'^blood-donors-search$', views.blood_search, name='blood_search'),
 
     url(r'^quest$', views.quest, name='quest'),
 
     url(r'^doctors$', views.doc_list, name='doc_list'),
-    
+
     url(r'^question$', views.question, name='question'),
 
     url(r'^ajaxreq',views.ajaxreq,name='ajaxreq'),
     url(r'^basicsymptoms/$',views.basicsymptoms,name='basicsymptoms'),
+    url(r'^reports$',views.reports,name='reports'),
 
 ]
-
-

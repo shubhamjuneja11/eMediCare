@@ -33,6 +33,19 @@ def index(request):
     else:
         return render(request, 'Temp/index.html')
 
+def reports(request):
+    if request.session.has_key('user_id'):
+
+        uid = request.session['user_id']
+        try:
+            user = Users.objects.get(pk=uid)
+            hist = []
+            hist.extend(History.objects.filter(email=user.email).values('dis_name', 'dis_severity', 'dis_time'))
+            # return HttpResponse(hist)
+            return render(request, 'Temp/reports.html', {'user_id': user, 'history': hist})
+        except Users.DoesNotExist:
+            return HttpResponse("UserName not found")
+
 
 def login(request):
     return render(request, 'Temp/signupform.html')
