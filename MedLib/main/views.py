@@ -141,12 +141,17 @@ def register(request):
     if request.method == 'POST':
         signup = SignupForm(request.POST)
         if signup.is_valid():
+            email=signup.cleaned_data.get('email')
+            pwd=signup.cleaned_data.get('pwd')
             p = Users(
-                email=signup.cleaned_data.get('email'),
-                pwd=signup.cleaned_data.get('pwd'),
+                email,pwd
             )
+            print(email)
+            print(pwd)
+            print("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
             p.save()
-            request.session['user_id'] = p.email
+            #request.session['user_id'] = p.email
+            print("doneeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee")
     return HttpResponseRedirect(reverse('main:index'))
 
 
