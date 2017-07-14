@@ -20,6 +20,7 @@ j = []
 
 
 def index(request):
+
     if request.session.has_key('user_id'):
         uid = request.session['user_id']
         try:
@@ -139,8 +140,11 @@ def search1(request):
 
 def register(request):
     if request.method == 'POST':
+        print "post"
         signup = SignupForm(request.POST)
+        print"yup"
         if signup.is_valid():
+            print"yeassssssssssssssss"
             email=signup.cleaned_data.get('email')
             pwd=signup.cleaned_data.get('pwd')
             p = Users(
