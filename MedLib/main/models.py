@@ -1,8 +1,11 @@
 from django.db import models
 
 class Users(models.Model):
-    email = models.CharField(max_length=120,unique=True)
+    email = models.CharField(max_length=120)
     pwd= models.CharField(max_length=80)
+
+    
+
 
 
     #no_of_topics=models.IntegerField(default=0)

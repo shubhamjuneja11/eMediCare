@@ -141,22 +141,12 @@ def search1(request):
 def register(request):
     if request.method == 'POST':
         print "post"
-        signup = SignupForm(request.POST)
-        print"yup"
-        if signup.is_valid():
-            print"yeassssssssssssssss"
-            email=signup.cleaned_data.get('email')
-            pwd=signup.cleaned_data.get('pwd')
-            p = Users(
-                email,pwd
-            )
-            print(email)
-            print(pwd)
-            print("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
-            p.save()
-            #request.session['user_id'] = p.email
-            print("doneeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee")
-    return HttpResponseRedirect(reverse('main:index'))
+        em=str(request.POST['email'])
+        pw=str(request.POST['pwd'])
+        p = Users(email=em,pwd=pw)
+        p.save()
+        return HttpResponseRedirect(reverse('main:index'))
+
 
 
 def logInReq(request):
@@ -164,7 +154,11 @@ def logInReq(request):
         log = LoginForm(request.POST)
         if log.is_valid():
             try:
-                user = Users.objects.get(email=log.cleaned_data.get('email'), pwd=log.cleaned_data.get('pwd'))
+                em=log.cleaned_data.get('email')
+                pw=log.cleaned_data.get('pwd')
+                print(em)
+                print(pw)
+                user = Users.objects.get(email = em,pwd = pw)
                 request.session['user_id'] = user.id
                 # return render(request,'Temp/dashboard.html')
                 return HttpResponseRedirect(reverse('main:index'))
@@ -220,6 +214,7 @@ def quest(request):
 
 
 def question(request):
+
     global ob
     # global j
     # j +=1
@@ -274,9 +269,13 @@ def doc_list(request):
     location = request.POST['location']
     loc_dict = ast.literal_eval(location)
     loc_dict1 = {}
-    loc_dict1['lat'] = loc_dict['latitude']
-    loc_dict1['lng'] = loc_dict['longitude']
+    loc_dict1['lat'] =  loc_dict['latitude'] #request.COOKIES.get('latitude')
+    loc_dict1['lng'] =  loc_dict['longitude'] #request.COOKIES.get('longitude')
     doctor_type = request.POST['doctor_type']
+    print("                         ")
+    print(loc_dict1['lat'])
+    print(   loc_dict1['lng'])
+    print("                                       ")
     doctor = doctor_type.split()
     doctor_search = doctor[-2] + doctor[-1]
     plac = medplace.get_places(lat_lng=loc_dict1, doctor_type=doctor_search)

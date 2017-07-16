@@ -3,7 +3,6 @@ from django import forms
 class SignupForm(forms.Form):
     email = forms.CharField(max_length=120)
     pwd = forms.CharField(max_length=80)
-    
 
 
 class LoginForm(forms.Form):

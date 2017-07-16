@@ -10,7 +10,8 @@
     }
 
     function myajaxreq(){
-      startload();
+
+      /*startload();
 
       $.ajax({
 
@@ -21,7 +22,7 @@
               $("#mytext").html(data);
               stopload();
             }
-          })
+          })*/
         }
 
         function myfun(){
@@ -121,9 +122,6 @@
       function  newques() {
         startload();
              //var csrftoken = jQuery("[name=csrfmiddlewaretoken]").val();
-             var dataz=$("#myform").serialize();
-             console.log(dataz);
-
          $.ajax({
 
          url:"question",
@@ -147,7 +145,34 @@
       }
 
       function getdoctors(){
+        console.log("getdoccccccccccccc");
         //var csrftoken = jQuery("[name=csrfmiddlewaretoken]").val();
+        getLocation();
+      }
+
+
+
+      function getLocation() {console.log("getloccccccccccccccccccc");
+          if (navigator.geolocation) {
+            console.log("aaaaaaaaaaaaaaaaaaaaaaaaa");
+              navigator.geolocation.getCurrentPosition(showPosition);
+
+          } else {
+              console.log( "Geolocation is not supported by this browser.");
+          }
+      }
+      function showPosition(position) {
+          console.log( "Latitude: " + position.coords.latitude +
+          "<br>Longitude: " + position.coords.longitude);
+          document.cookie="latitude="+position.coords.latitude;
+          document.cookie="longitude"+position.coords.longitude;
+          showdoctors();
+
+
+
+
+      }
+      function showdoctors(){
         var dataz=$("#myform").serialize();
         console.log(dataz);
 
