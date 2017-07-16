@@ -9,7 +9,66 @@
     <link href='https://fonts.googleapis.com/css?family=Sonsie+One' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="{% static 'css/style1.css' %}" type="text/css" />
     <link rel="stylesheet" href="{% static 'css/imagehover.min.css' %}" type="text/css" />
+<script>
 
+
+function getdoctors(){
+  console.log("in getdoctors");
+  //var csrftoken = jQuery("[name=csrfmiddlewaretoken]").val();
+  getLocation();
+}
+
+
+
+function getLocation() {console.log("in getLocation");
+    if (navigator.geolocation) {
+      console.log("aaaaaaaaaaaaaaaaaaaaaaaaa");
+        navigator.geolocation.getCurrentPosition(showPosition);
+
+    } else {
+        console.log( "Geolocation is not supported by this browser.");
+    }
+}
+function showPosition(position) {
+  console.log("in showposition");
+    console.log( "Latitude: " + position.coords.latitude +
+    "<br>Longitude: " + position.coords.longitude);
+    document.cookie="latitude="+position.coords.latitude;
+    document.cookie="longitude="+position.coords.longitude;
+    showdoctors();
+
+
+
+
+}
+function showdoctors(){
+  console.log("in show doctors");
+  var dataz=$("#myform").serialize();
+  console.log(dataz);
+
+$.ajax({
+
+url:"doctors",
+  dataType
+:
+'html',
+  type
+:
+"POST",
+  data:dataz ,
+  success
+:
+function (data) {
+  $("#mytext").html(data)
+  stopload();
+}
+
+
+})
+}
+
+
+</script>
 
     <div class="container">
         <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css'>
@@ -34,7 +93,6 @@
 
                         <br>
                         <input onclick="getdoctors()" class="btn btn-primary" name="find_doctor" id="find_doctor" value="GET NEARBY DOCTORS"><br>
-                        <input type="hidden" name="location" id="location" value="{"ip" : "47.31.14.117", "country_code" : "IN", "country_name" : "India", "region_code" : "DL", "region_name" : "National Capital Territory of Delhi", "city" : "Delhi", "zip_code" : "", "time_zone" : "Asia/Kolkata", "latitude" : "28.6667", "longitude" : "77.2167", "metro_code" : "0", }"><br>
                         <input type="hidden" name="doctor_type" id="doctor_type" value="{{ result.hint }}">
                     </form>
 
@@ -44,10 +102,10 @@
                         </div>
                     </div>
 
-                    </form>
+
 
                 </div>
-                </form>
+
         </div>
 
         </aside>
@@ -55,22 +113,3 @@
     </div>
       <div id = "geolocat">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script>
-$(document).ready(function(){
-    //console.log("23");
-    //alert("hey");
-    var l = "";
-    //console.log(l);
-    //alert("hey2");
-        $.getJSON("https://freegeoip.net/json/", function(result){
-            l = l + "{";
-            $.each(result, function(i, field){
-            	l = l + "\"" + i + "\" : " + "\"" + field + "\", ";
-
-            });
-            l = l + "}";
-            $('#location').val(l);
-            //alert("hey"+l);
-        });
-    });
-</script>

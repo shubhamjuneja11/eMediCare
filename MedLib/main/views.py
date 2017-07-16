@@ -34,6 +34,7 @@ def index(request):
     else:
         return render(request, 'Temp/index.html')
 
+
 def reports(request):
     if request.session.has_key('user_id'):
 
@@ -266,15 +267,25 @@ def question(request):
 
 
 def doc_list(request):
-    location = request.POST['location']
-    loc_dict = ast.literal_eval(location)
+    #location = request.POST['location']
+    #loc_dict = ast.literal_eval(location)
     loc_dict1 = {}
-    loc_dict1['lat'] =  loc_dict['latitude'] #request.COOKIES.get('latitude')
-    loc_dict1['lng'] =  loc_dict['longitude'] #request.COOKIES.get('longitude')
+    try:
+        loc_dict1['lat'] = request.COOKIES.get('latitude')
+        print("in try1")
+    except:
+        loc_dict1['lat'] = loc_dict['latitude'] #request.COOKIES.get('latitude')
+        print("in catch 1")
+    try:
+        loc_dict1['lng'] = request.COOKIES.get('longitude')
+        print("in try 2")
+    except:
+        loc_dict1['lng'] = loc_dict['longitude'] #request.COOKIES.get('longitude')
+        print("in catch 2")
     doctor_type = request.POST['doctor_type']
     print("                         ")
     print(loc_dict1['lat'])
-    print(   loc_dict1['lng'])
+    print(loc_dict1['lng'])
     print("                                       ")
     doctor = doctor_type.split()
     doctor_search = doctor[-2] + doctor[-1]

@@ -145,14 +145,14 @@
       }
 
       function getdoctors(){
-        console.log("getdoccccccccccccc");
+        console.log("in getdoctors");
         //var csrftoken = jQuery("[name=csrfmiddlewaretoken]").val();
         getLocation();
       }
 
 
 
-      function getLocation() {console.log("getloccccccccccccccccccc");
+      function getLocation() {console.log("in getLocation");
           if (navigator.geolocation) {
             console.log("aaaaaaaaaaaaaaaaaaaaaaaaa");
               navigator.geolocation.getCurrentPosition(showPosition);
@@ -162,10 +162,11 @@
           }
       }
       function showPosition(position) {
+        console.log("in showposition");
           console.log( "Latitude: " + position.coords.latitude +
           "<br>Longitude: " + position.coords.longitude);
           document.cookie="latitude="+position.coords.latitude;
-          document.cookie="longitude"+position.coords.longitude;
+          document.cookie="longitude="+position.coords.longitude;
           showdoctors();
 
 
@@ -173,6 +174,7 @@
 
       }
       function showdoctors(){
+        console.log("in show doctors");
         var dataz=$("#myform").serialize();
         console.log(dataz);
 
