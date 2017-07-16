@@ -1,23 +1,18 @@
-<<<<<<< HEAD
-# Virtual doctor assistant
-In this project The user first login and then if the user chooses/click "checkup Now" then user will tell about the symptoms he/she have them like a doctor our web interface ask you several questions (based on Artificial Intelligence) and finally give you the disease you have and suggest a doctor
+eMedicare
+
 
 #### Insallation
 First Install all Depemdencies.
-``` sh
-$ cd Virtual_doctor_assistant/MedLib/
+$ cd eMedicare/MedLib
 $ pip install -r setup.txt
-```
+
 
 #### Run
-```sh
-$ cd Virtual_doctor_assistant/MedLib/
+
+$ cd eMedicare/MedLib
 $ python manage.py makemigrations
 $ python manage.py migrate
 $ pyhon manage.py runserver
-```
+
 project run at  http://127.0.0.1:8000/
 
-=======
-# eMedicare
->>>>>>> fac69b0aea17af3790b3c380a2357099ed6f7630
