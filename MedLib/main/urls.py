@@ -15,7 +15,6 @@ urlpatterns = [
     #url for login-page:
     url(r'^login$', views.login, name='login'),
     #url for signup-page:
-    url(r'^signup$', views.signup, name='signup'),
 
     #url to log in a user:
     url(r'^log_req$', views.logInReq, name='login_req'),
@@ -47,5 +46,6 @@ urlpatterns = [
     url(r'^ajaxreq',views.ajaxreq,name='ajaxreq'),
     url(r'^basicsymptoms/$',views.basicsymptoms,name='basicsymptoms'),
     url(r'^reports$',views.reports,name='reports'),
+    url(r'^checknow',views.checknow,name='checknow'),
 
 ]

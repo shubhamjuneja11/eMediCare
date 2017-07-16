@@ -20,7 +20,9 @@ j = []
 
 
 def index(request):
+        return render(request, 'Temp/index.html')
 
+def checknow(request):
     if request.session.has_key('user_id'):
         uid = request.session['user_id']
         try:
@@ -32,8 +34,7 @@ def index(request):
         except Users.DoesNotExist:
             return HttpResponse("UserName not found")
     else:
-        return render(request, 'Temp/index.html')
-
+        return render(request, 'Temp/signupform.html')
 
 def reports(request):
     if request.session.has_key('user_id'):
@@ -50,11 +51,9 @@ def reports(request):
 
 
 def login(request):
-    return render(request, 'Temp/signupform.html')
+    return HttpResponseRedirect(reverse('main:checknow'))
 
 
-def signup(request):
-    return render(request, 'Temp/signup.html')
 
 
 def search_checkup(request):
@@ -146,7 +145,7 @@ def register(request):
         pw=str(request.POST['pwd'])
         p = Users(email=em,pwd=pw)
         p.save()
-        return HttpResponseRedirect(reverse('main:index'))
+        return HttpResponseRedirect(reverse('main:login'))
 
 
 
@@ -162,7 +161,7 @@ def logInReq(request):
                 user = Users.objects.get(email = em,pwd = pw)
                 request.session['user_id'] = user.id
                 # return render(request,'Temp/dashboard.html')
-                return HttpResponseRedirect(reverse('main:index'))
+                return HttpResponseRedirect(reverse('main:checknow'))
             except Users.DoesNotExist:
                 return HttpResponse("WRONG USERNAME OR PASSWORD")
 
