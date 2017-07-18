@@ -10,8 +10,8 @@
     }
 
     function myajaxreq(){
-
-      /*startload();
+      console.log("ss")
+      startload();
 
       $.ajax({
 
@@ -22,7 +22,7 @@
               $("#mytext").html(data);
               stopload();
             }
-          })*/
+          })
         }
 
         function myfun(){
