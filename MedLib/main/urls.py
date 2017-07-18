@@ -12,6 +12,9 @@ app_name = 'main'
 urlpatterns = [
     #url for home-page:
     url(r'^$', views.index, name='index'),
+    url(r'^aboutus$', views.aboutus, name='aboutus'),
+    url(r'^gallery$', views.gallery, name='gallery'),
+    url(r'^contactus$', views.contactus, name='contactus'),
     #url for login-page:
     url(r'^login$', views.login, name='login'),
     #url for signup-page:
@@ -47,5 +50,6 @@ urlpatterns = [
     url(r'^basicsymptoms/$',views.basicsymptoms,name='basicsymptoms'),
     url(r'^reports$',views.reports,name='reports'),
     url(r'^checknow',views.checknow,name='checknow'),
+
 
 ]

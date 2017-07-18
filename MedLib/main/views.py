@@ -22,6 +22,15 @@ j = []
 def index(request):
         return render(request, 'Temp/index.html')
 
+def aboutus(request):
+        return render(request, 'Temp/about.html')
+
+def gallery(request):
+        return render(request, 'Temp/gallery.html')
+
+def contactus(request):
+        return render(request,'Temp/contact.html')
+
 def checknow(request):
     if request.session.has_key('user_id'):
         uid = request.session['user_id']
