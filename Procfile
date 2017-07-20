@@ -1,1 +1,1 @@
-web: gunicorn MedLib.wsgi
+web: gunicorn MedLib.MedLib.wsgi
