@@ -3,6 +3,7 @@ from django.core.exceptions import ObjectDoesNotExist  # This may be used instea
 from django.http import HttpResponse, HttpResponseRedirect
 from .medget import medget
 from django.views import generic
+from django.db import IntegrityError
 import re
 import medplace
 from django.urls import reverse
@@ -148,13 +149,17 @@ def search1(request):
 
 
 def register(request):
-    if request.method == 'POST':
-        print "post"
-        em=str(request.POST['email'])
-        pw=str(request.POST['pwd'])
-        p = Users(email=em,pwd=pw)
-        p.save()
-        return HttpResponseRedirect(reverse('main:login'))
+    try:
+        if request.method == 'POST':
+            print "post"
+            em=str(request.POST['email'])
+            pw=str(request.POST['pwd'])
+            p = Users(email=em,pwd=pw)
+            p.save()
+            return HttpResponseRedirect(reverse('main:login'))
+    except IntegrityError:
+        return HttpResponse("You are already registered.")
+
 
 
 
