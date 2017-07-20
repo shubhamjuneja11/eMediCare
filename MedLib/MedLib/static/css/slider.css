@@ -186,15 +186,15 @@ summary { display: block; }
 
 .sleekslider .slide.active { z-index: 3; }
 
-.sleekslider .bg-1 { background-image:url("/static/img/wallhaven-16270.jpg");}
+.sleekslider .bg-1 { background-image:url("../images/wallhaven-16270.jpg");}
 
-.sleekslider .bg-2 { background-image: url("../img/wallhaven-16270.jpg"); }
+.sleekslider .bg-2 { background-image: url("../images/wallhaven-16270.jpg"); }
 
-.sleekslider .bg-3 { background-image: url("../img/wallhaven-12018.jpg"); }
+.sleekslider .bg-3 { background-image: url("../images/wallhaven-12018.jpg"); }
 
-.sleekslider .bg-4 { background-image: url("../img/wallhaven-3178.jpg"); }
+.sleekslider .bg-4 { background-image: url("../images/wallhaven-3178.jpg"); }
 
-.sleekslider .bg-5 { background-image: url("../img/wallhaven-10742.jpg"); }
+.sleekslider .bg-5 { background-image: url("../images/wallhaven-10742.jpg"); }
 
 .sleekslider .tab-container {
   max-width: 1200px;
