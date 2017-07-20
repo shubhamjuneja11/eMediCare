@@ -19,3 +19,4 @@ six==1.10.0
 social-auth-core==1.2.0
 tornado==4.4.2
 whitenoise==3.2
+gunicorn==19.7.1
